@@ -4,7 +4,6 @@
 #include<string>
 using namespace std;
 
-//FILE * fp=fopen("10828.inp","r");
 int command_count;
 
 struct Stack{
