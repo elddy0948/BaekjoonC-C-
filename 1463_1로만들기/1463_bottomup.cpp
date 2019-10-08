@@ -6,7 +6,7 @@ int main(){
     int n;
     cin>>n;
     d[1]=0;
-    for(int i=2;i<=n;i++){
+    for(int i=2;i<=n;i++){ //가장 작은문제 부터 가장 큰 문제까지 
         d[i]=d[i-1]+1;
         if(i%2==0&&d[i]>d[i/2]+1){
             d[i]=d[i/2]+1;
