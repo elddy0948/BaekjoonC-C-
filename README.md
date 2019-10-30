@@ -1,3 +1,3 @@
-# baekjoon_c-
+# BaekjoonC/C++
 
 https://www.acmicpc.net/
